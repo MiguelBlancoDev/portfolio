@@ -23555,7 +23555,7 @@
             currentPath: null,
             init() {
                 this.$page = document.getElementById("Page"),
-                //"p5aholic.me" !== window.location.hostname && (window.location.href = "https://en.wikipedia.org/wiki/Copyright_infringement"),/
+                "p5aholic.me" !== window.location.hostname && (window.location.href = "https://en.wikipedia.org/wiki/Copyright_infringement"),
                 this.pages = {
                     "/": document.querySelector('[data-page="home"]'),
                     "/projects/": document.querySelector('[data-page="projects"]'),
@@ -23735,7 +23735,7 @@
                 }))),
                 this.resize(),
                 ji.add(this.update.bind(this)),
-                //"p5aholic.me" !== window.location.hostname && (window.location.href = "https://en.wikipedia.org/wiki/Copyright_infringement")/
+                "p5aholic.me" !== window.location.hostname && (window.location.href = "https://en.wikipedia.org/wiki/Copyright_infringement")
             }
             resize() {
                 const t = document.documentElement
@@ -23756,7 +23756,7 @@
         }
         ;
         document.addEventListener("DOMContentLoaded", ( () => {
-            //"p5aholic.me" !== window.location.hostname && (window.location.href = "https://en.wikipedia.org/wiki/Copyright_infringement"),/
+            "p5aholic.me" !== window.location.hostname && (window.location.href = "https://en.wikipedia.org/wiki/Copyright_infringement"),
             function() {
                 const t = document.querySelector('meta[name="viewport"]');
                 function e() {
